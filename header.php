@@ -28,8 +28,8 @@
       <div class="slide-1"></div>
       <div class="hero">
         <hgroup>
-            <h1><a href="index.php"><img src="./static/img/logo3.png"></a></h1>
-            <h3>Label Eco-consommation</h3>
+            <h1><a href="index.php"><img  class="logo" src="./static/img/logo3.png"></a></h1>
+            <h3 class="label">Label Eco-consommation</h3>
         </hgroup>
       </div>
     </div>
@@ -37,8 +37,8 @@
       <div class="slide-2"></div>
       <div class="hero">
         <hgroup>
-            <h1><a href="index.php"><img src="./static/img/logo3.png"></a></h1>
-            <h3>Label Eco-consommation</h3>
+            <h1><a href="index.php"><img class="logo"  src="./static/img/logo3.png"></a></h1>
+            <h3 class="label">Label Eco-consommation</h3>
         </hgroup>
       </div>
     </div>
@@ -46,8 +46,8 @@
       <div class="slide-3"></div>
       <div class="hero">
         <hgroup>
-            <h1><a href="index.php"><img src="./static/img/logo3.png"></a></h1>
-            <h3>Label Eco-consommation</h3>
+            <h1><a href="index.php"><img class="logo" src="./static/img/logo3.png"></a></h1>
+            <h3 class="label">Label Eco-consommation</h3>
         </hgroup>
       </div>
     </div>
