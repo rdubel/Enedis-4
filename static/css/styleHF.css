@@ -1,9 +1,7 @@
-body{
-  background-color: #f7f7f7;
-}
+
 .fade-carousel {
     position: relative;
-    height: 20%;
+    height: 30vh;
 }
 .fade-carousel .carousel-inner .item {
     height: 50vh;
@@ -49,7 +47,7 @@ ol.carousel-indicator{
     padding: 0;
 }
 .hero h3 {
-  font-size: 20px;
+  font-size: 30px;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -99,7 +97,7 @@ ol.carousel-indicator{
   background-image: url(http://www.lozere-online.com/wp-content/uploads/2013/08/col-aigle.jpg);
 }
 .fade-carousel .slides .slide-2 {
-  background-image: url(https://www.petitfute.com/medias/mag/898/835/033787-lozere-les-gorges-du-tarn.jpg);
+  background-image: url(http://www.photorendu.com/images/lavande.jpg);
 }
 .fade-carousel .slides .slide-3 {
   background-image: url(http://www.lozere-tourisme.com/sites/lozere/files/styles/diapositive_mediatheque/public/decouvrir_gorges_tarn_01_0.jpg?itok=Lz4O2rBQ);
@@ -134,8 +132,7 @@ footer p {
 }
 
  #mapid{
-   margin-left: 15%;
-   margin-top: 5%;
+   margin-left: 26%;
    margin-bottom: 5%;
  }
  h1{
@@ -143,14 +140,19 @@ footer p {
  }
  h2{
 text-align: center;
+font-family: 'Source Sans Pro', sans-serif;
+opacity: 0.7;
+font-style: italic;
  }
 
 .logo{
   width: 40%;
   height: 30%;
   margin-bottom: 10%;
-
 }
-.label{
-margin-bottom: 50%;
+.label {
+  opacity: 0.8;
+}
+hgroup {
+padding-bottom: 210px;
 }

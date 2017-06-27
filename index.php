@@ -15,8 +15,8 @@ include("header.php")
    </head>
    <body>
 
-     <h2>Pour accéder aux données,cliquer sur le ville de votre choix de la Lozère.</h2>
-     <div id="mapid" style="width:500px; height:500px";></div>
+     <h2>Pour accéder aux données, cliquer sur le ville de votre choix de la Lozère.</h2>
+     <div id="mapid" style="width:890px; height:500px";></div>
       <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
       <script type="text/javascript">
         var carte = L.map('mapid').setView([44.494203, 3.5812691999999515], 8);
