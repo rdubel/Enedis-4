@@ -1,21 +1,27 @@
-
+body{
+  background-color: #f7f7f7;
+}
 .fade-carousel {
     position: relative;
-    height: 100vh;
+    height: 50vh;
 }
 .fade-carousel .carousel-inner .item {
-    height: 100vh;
+    height: 50vh;
 }
 .fade-carousel .carousel-indicators > li {
     margin: 0 2px;
     background-color: #f39c12;
     border-color: #f39c12;
     opacity: .7;
+
 }
 .fade-carousel .carousel-indicators > li.active {
   width: 10px;
   height: 10px;
   opacity: 1;
+}
+ol.carousel-indicator{
+
 }
 
 /********************************/
@@ -43,7 +49,7 @@
     padding: 0;
 }
 .hero h3 {
-  font-size: 60px;
+  font-size: 20px;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -112,7 +118,7 @@
 
 footer{
    background-color: #424558;
-    position: fixed;
+
     bottom: 0;
     left: 0;
     right: 0;
@@ -126,3 +132,14 @@ footer p {
     margin: 0px;
     line-height: 100%;
 }
+ #mapid{
+   margin-left: 15%;
+   margin-top: 5%;
+   margin-bottom: 5%;
+ }
+ h1{
+   font-size: 15px;
+ }
+ h2{
+text-align: center;
+ }
