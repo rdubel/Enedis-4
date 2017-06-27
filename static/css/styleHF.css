@@ -3,7 +3,7 @@ body{
 }
 .fade-carousel {
     position: relative;
-    height: 50vh;
+    height: 20%;
 }
 .fade-carousel .carousel-inner .item {
     height: 50vh;
@@ -90,7 +90,7 @@ ol.carousel-indicator{
 .fade-carousel .slides .slide-1,
 .fade-carousel .slides .slide-2,
 .fade-carousel .slides .slide-3 {
-  height: 100vh;
+  height: 55%;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -99,7 +99,7 @@ ol.carousel-indicator{
   background-image: url(http://www.lozere-online.com/wp-content/uploads/2013/08/col-aigle.jpg);
 }
 .fade-carousel .slides .slide-2 {
-  background-image: url(http://photos.tourisme-en-france.com/petitesregions/languedoc-roussillon/margeride/3_mende-2.jpg);
+  background-image: url(https://www.petitfute.com/medias/mag/898/835/033787-lozere-les-gorges-du-tarn.jpg);
 }
 .fade-carousel .slides .slide-3 {
   background-image: url(http://www.lozere-tourisme.com/sites/lozere/files/styles/diapositive_mediatheque/public/decouvrir_gorges_tarn_01_0.jpg?itok=Lz4O2rBQ);
@@ -132,6 +132,7 @@ footer p {
     margin: 0px;
     line-height: 100%;
 }
+
  #mapid{
    margin-left: 15%;
    margin-top: 5%;
@@ -143,3 +144,13 @@ footer p {
  h2{
 text-align: center;
  }
+
+.logo{
+  width: 40%;
+  height: 30%;
+  margin-bottom: 10%;
+
+}
+.label{
+margin-bottom: 50%;
+}
