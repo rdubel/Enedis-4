@@ -7,7 +7,7 @@
       <link href="./static/external/bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
       <link href="./static/external/bootstrap-3.3.7-dist/fonts" rel="text/css">
       <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great%7CSource+Sans+Pro" rel="stylesheet">
-      <script src="jquery-3.2.1.js"></script>
+      <script src="./static/js/jquery-3.2.1.js"></script>
       <script src="./static/external/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
       <link rel="stylesheet"href="./static/css/styleHF.css"/>
       <title>Enedis</title>
