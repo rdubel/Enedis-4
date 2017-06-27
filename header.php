@@ -3,13 +3,13 @@
     <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link href="./bootstrap-3.3.7-dist/css/bootstrap-theme.css" rel="stylesheet">
-      <link href="./bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
-      <link href="./bootstrap-3.3.7-dist/fonts" rel="text/css">
+      <link href="./static/external/bootstrap-3.3.7-dist/css/bootstrap-theme.css" rel="stylesheet">
+      <link href="./static/external/bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
+      <link href="./static/external/bootstrap-3.3.7-dist/fonts" rel="text/css">
       <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great%7CSource+Sans+Pro" rel="stylesheet">
       <script src="jquery-3.2.1.js"></script>
-      <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-      <link rel="stylesheet"href="styleHF.css"/>
+      <script src="./static/external/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+      <link rel="stylesheet"href="./static/css/styleHF.css"/>
       <title>Enedis</title>
 <body>
   <header>
@@ -30,7 +30,7 @@
       <div class="slide-1"></div>
       <div class="hero">
         <hgroup>
-            <h1><a href="index.php"><img src="logo3.png"></a></h1>
+            <h1><a href="index.php"><img src="./static/img/logo3.png"></a></h1>
             <h3>Label Eco-consommation</h3>
         </hgroup>
       </div>
@@ -39,7 +39,7 @@
       <div class="slide-2"></div>
       <div class="hero">
         <hgroup>
-            <h1><a href="index.php"><img src="logo3.png"></a></h1>
+            <h1><a href="index.php"><img src="./static/img/logo3.png"></a></h1>
             <h3>Label Eco-consommation</h3>
         </hgroup>
       </div>
@@ -48,7 +48,7 @@
       <div class="slide-3"></div>
       <div class="hero">
         <hgroup>
-            <h1><a href="index.php"><img src="logo3.png"></a></h1>
+            <h1><a href="index.php"><img src="./static/img/logo3.png"></a></h1>
             <h3>Label Eco-consommation</h3>
         </hgroup>
       </div>
