@@ -29,9 +29,9 @@ include("header.php")
      // iconUrl: 'demi2.png'});
       var marker3 = L.marker([44.801726, 3.2752269999999726]).addTo(carte);
       var marker4 = L.marker([44.431036, 3.214921000000004]).addTo(carte);
-      var marker4 = L.marker([44.550133, 3.289894000000004]).addTo(carte);
+      var marker5 = L.marker([44.550133, 3.289894000000004]).addTo(carte);
 
-marker.bindPopup('<a href="page2.php">Mende</a>').openPopup();
+marker2.bindPopup('<a href="page2.php">Mende</a>').openPopup();
 
       </script>
    </body>
