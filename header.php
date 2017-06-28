@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great%7CSource+Sans+Pro" rel="stylesheet">
   <script src="./static/js/jquery-3.2.1.js"></script>
   <script src="./static/external/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
-  <link rel="stylesheet"href="./static/css/styleHF.css"/>
+  <link rel="stylesheet" href="./static/css/styleHF.css"/>
   <title>Enedis</title>
   <body>
     <header>
@@ -50,4 +50,9 @@
     </div>
   </div>
 </div>
+<script>
+  $('.carousel').carousel({
+    interval: 2500
+  })
+</script>
 </header>

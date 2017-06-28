@@ -94,7 +94,7 @@ ol.carousel-indicator{
       background-repeat: no-repeat;
     }
     .fade-carousel .slides .slide-1 {
-      background-image: url(https://www.scenolia.com/21825/bleu-ciel.jpg);
+      background-image: url(http://ekladata.com/nzMKXnGnbMmXLS32lNRIQJ-wBC0.jpg);
     }
     .fade-carousel .slides .slide-2 {
       background-image: url(https://cdn.pixabay.com/photo/2016/04/27/20/13/wind-power-1357419_960_720.jpg);
@@ -171,4 +171,8 @@ thead{
 .amp{
   width: 120px;
   height: 195px;
+}
+.ville{
+  text-decoration: none;
+  color: black;
 }
