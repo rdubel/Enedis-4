@@ -10,7 +10,7 @@
   margin: 0 2px;
   background-color: #f39c12;
   border-color: #f39c12;
-  opacity: .7;
+  opacity: .3;
 
 }
 .fade-carousel .carousel-indicators > li.active {
@@ -94,13 +94,13 @@ ol.carousel-indicator{
       background-repeat: no-repeat;
     }
     .fade-carousel .slides .slide-1 {
-      background-image: url(http://www.lozere-online.com/wp-content/uploads/2013/08/col-aigle.jpg);
+      background-image: url(https://www.scenolia.com/21825/bleu-ciel.jpg);
     }
     .fade-carousel .slides .slide-2 {
-      background-image: url(http://www.photorendu.com/images/lavande.jpg);
+      background-image: url(https://cdn.pixabay.com/photo/2016/04/27/20/13/wind-power-1357419_960_720.jpg);
     }
     .fade-carousel .slides .slide-3 {
-      background-image: url(http://www.lozere-tourisme.com/sites/lozere/files/styles/diapositive_mediatheque/public/decouvrir_gorges_tarn_01_0.jpg?itok=Lz4O2rBQ);
+      background-image: url(http://lodlut.free.fr/wallpapers/wallpaper/ciel-bleu.jpg);
     }
 
     /********************************/
@@ -161,9 +161,14 @@ h4{
   text-align: center;
 }
 thead{
-  font-weight: bold;
+ font-weight: bold;
 }
-.amp {
-  margin-left: 120px;
-  
+.img {
+  display: flex; 
+  justify-content: space-around;
+
+}
+.amp{
+  width: 120px;
+  height: 195px;
 }
