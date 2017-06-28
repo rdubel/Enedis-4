@@ -15,16 +15,16 @@ include("header.php")
 </head>
 <body>
 
- <h2>Pour accéder aux données, cliquer sur le ville de votre choix de la Lozère.</h2>
- <div id="mapid" style="width:890px; height:500px";></div>
- <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
- <script type="text/javascript">
-  var carte = L.map('mapid').setView([44.494203, 3.5812691999999515], 8);
-  L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-   attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
- }).addTo(carte);
-  var marker = L.marker([44.727236, 3.855415999999991]).addTo(carte);
-  var marker2 = L.marker([44.517611, 3.5018729999999323]).addTo(carte);
+  <h2>Pour accéder aux données, cliquer sur la ville de votre choix(lozère).</h2>
+  <div id="mapid" style="width:890px; height:500px";></div>
+  <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+  <script type="text/javascript">
+    var carte = L.map('mapid').setView([44.494203, 3.5812691999999515], 8);
+    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+     attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+   }).addTo(carte);
+    var marker = L.marker([44.727236, 3.855415999999991]).addTo(carte);
+    var marker2 = L.marker([44.517611, 3.5018729999999323]).addTo(carte);
      //   var image = L.icon({
      // iconUrl: 'demi2.png'});
      var marker3 = L.marker([44.801726, 3.2752269999999726]).addTo(carte);

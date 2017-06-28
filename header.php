@@ -52,7 +52,7 @@
 </div>
 <script>
   $('.carousel').carousel({
-    interval: 2500
+    interval: 3000
   })
 </script>
 </header>
