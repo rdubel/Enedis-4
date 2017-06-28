@@ -131,8 +131,9 @@ ol.carousel-indicator{
     line-height: 100%;
   }
 
+
   #mapid{
-   margin-left: 26%;
+   margin-left: 17%;
    margin-bottom: 5%;
  }
  h1{
@@ -152,9 +153,6 @@ ol.carousel-indicator{
 }
 .label {
   opacity: 0.8;
-}
-hgroup {
-  padding-bottom: 210px;
 }
 .titre{
   text-align: center;

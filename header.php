@@ -29,7 +29,7 @@
       <div class="hero">
         <hgroup>
             <h1><a href="index.php"><img  class="logo" src="./static/img/logo3.png"></a></h1>
-            <h3 class="label">Label Eco-consommation</h3>
+            <!-- <h3 class="label">Label Eco-consommation</h3> -->
         </hgroup>
       </div>
     </div>

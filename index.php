@@ -31,6 +31,8 @@ include("header.php")
       var marker4 = L.marker([44.431036, 3.214921000000004]).addTo(carte);
       var marker4 = L.marker([44.550133, 3.289894000000004]).addTo(carte);
 
+marker.bindPopup('<a href="page2.php">Mende</a>').openPopup();
+
       </script>
    </body>
  </html>
