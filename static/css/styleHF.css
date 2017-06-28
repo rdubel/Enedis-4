@@ -1,16 +1,16 @@
 
 .fade-carousel {
-    position: relative;
-    height: 30vh;
+  position: relative;
+  height: 30vh;
 }
 .fade-carousel .carousel-inner .item {
-    height: 50vh;
+  height: 50vh;
 }
 .fade-carousel .carousel-indicators > li {
-    margin: 0 2px;
-    background-color: #f39c12;
-    border-color: #f39c12;
-    opacity: .7;
+  margin: 0 2px;
+  background-color: #f39c12;
+  border-color: #f39c12;
+  opacity: .7;
 
 }
 .fade-carousel .carousel-indicators > li.active {
@@ -26,25 +26,25 @@ ol.carousel-indicator{
 /*          Hero Headers        */
 /********************************/
 .hero {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: 3;
-    color: #fff;
-    text-align: center;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
-      -webkit-transform: translate3d(-50%,-50%,0);
-         -moz-transform: translate3d(-50%,-50%,0);
-          -ms-transform: translate3d(-50%,-50%,0);
-           -o-transform: translate3d(-50%,-50%,0);
-              transform: translate3d(-50%,-50%,0);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+  -webkit-transform: translate3d(-50%,-50%,0);
+  -moz-transform: translate3d(-50%,-50%,0);
+  -ms-transform: translate3d(-50%,-50%,0);
+  -o-transform: translate3d(-50%,-50%,0);
+  transform: translate3d(-50%,-50%,0);
 }
 .hero h1 {
-    font-size: 6em;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
+  font-size: 6em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
 }
 .hero h3 {
   font-size: 30px;
@@ -52,20 +52,20 @@ ol.carousel-indicator{
 }
 
 .fade-carousel .carousel-inner .item .hero {
-    opacity: 0;
-    -webkit-transition: 2s all ease-in-out .1s;
-       -moz-transition: 2s all ease-in-out .1s;
-        -ms-transition: 2s all ease-in-out .1s;
-         -o-transition: 2s all ease-in-out .1s;
-            transition: 2s all ease-in-out .1s;
+  opacity: 0;
+  -webkit-transition: 2s all ease-in-out .1s;
+  -moz-transition: 2s all ease-in-out .1s;
+  -ms-transition: 2s all ease-in-out .1s;
+  -o-transition: 2s all ease-in-out .1s;
+  transition: 2s all ease-in-out .1s;
 }
 .fade-carousel .carousel-inner .item.active .hero {
-    opacity: 1;
-    -webkit-transition: 2s all ease-in-out .1s;
-       -moz-transition: 2s all ease-in-out .1s;
-        -ms-transition: 2s all ease-in-out .1s;
-         -o-transition: 2s all ease-in-out .1s;
-            transition: 2s all ease-in-out .1s;
+  opacity: 1;
+  -webkit-transition: 2s all ease-in-out .1s;
+  -moz-transition: 2s all ease-in-out .1s;
+  -ms-transition: 2s all ease-in-out .1s;
+  -o-transition: 2s all ease-in-out .1s;
+  transition: 2s all ease-in-out .1s;
 }
 
 /********************************/
@@ -78,60 +78,60 @@ ol.carousel-indicator{
     z-index: 2;
     background-color: #080d15;
     opacity: .2;
-}*/
+    }*/
 
 
 
-/********************************/
-/*       Slides backgrounds     */
-/********************************/
-.fade-carousel .slides .slide-1,
-.fade-carousel .slides .slide-2,
-.fade-carousel .slides .slide-3 {
-  height: 55%;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-.fade-carousel .slides .slide-1 {
-  background-image: url(http://www.lozere-online.com/wp-content/uploads/2013/08/col-aigle.jpg);
-}
-.fade-carousel .slides .slide-2 {
-  background-image: url(http://www.photorendu.com/images/lavande.jpg);
-}
-.fade-carousel .slides .slide-3 {
-  background-image: url(http://www.lozere-tourisme.com/sites/lozere/files/styles/diapositive_mediatheque/public/decouvrir_gorges_tarn_01_0.jpg?itok=Lz4O2rBQ);
-}
+    /********************************/
+    /*       Slides backgrounds     */
+    /********************************/
+    .fade-carousel .slides .slide-1,
+    .fade-carousel .slides .slide-2,
+    .fade-carousel .slides .slide-3 {
+      height: 55%;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+    .fade-carousel .slides .slide-1 {
+      background-image: url(http://www.lozere-online.com/wp-content/uploads/2013/08/col-aigle.jpg);
+    }
+    .fade-carousel .slides .slide-2 {
+      background-image: url(http://www.photorendu.com/images/lavande.jpg);
+    }
+    .fade-carousel .slides .slide-3 {
+      background-image: url(http://www.lozere-tourisme.com/sites/lozere/files/styles/diapositive_mediatheque/public/decouvrir_gorges_tarn_01_0.jpg?itok=Lz4O2rBQ);
+    }
 
-/********************************/
-/*          Media Queries       */
-/********************************/
-@media screen and (min-width: 980px){
-    .hero { width: 980px; }
-}
-@media screen and (max-width: 640px){
-    .hero h1 { font-size: 4em; }
-}
-/* Footer */
+    /********************************/
+    /*          Media Queries       */
+    /********************************/
+    @media screen and (min-width: 980px){
+      .hero { width: 980px; }
+    }
+    @media screen and (max-width: 640px){
+      .hero h1 { font-size: 4em; }
+    }
+    /* Footer */
 
-footer{
-   background-color: #424558;
+    footer{
+     background-color: #424558;
 
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 35px;
-    text-align: center;
-    color: #CCC;
-}
+     bottom: 0;
+     left: 0;
+     right: 0;
+     height: 35px;
+     text-align: center;
+     color: #CCC;
+   }
 
-footer p {
+   footer p {
     padding: 10.5px;
     margin: 0px;
     line-height: 100%;
-}
+  }
 
- #mapid{
+  #mapid{
    margin-left: 26%;
    margin-bottom: 5%;
  }
@@ -139,11 +139,11 @@ footer p {
    font-size: 15px;
  }
  h2{
-text-align: center;
-font-family: 'Source Sans Pro', sans-serif;
-opacity: 0.7;
-font-style: italic;
- }
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  opacity: 0.7;
+  font-style: italic;
+}
 
 .logo{
   width: 40%;
@@ -154,5 +154,18 @@ font-style: italic;
   opacity: 0.8;
 }
 hgroup {
-padding-bottom: 210px;
+  padding-bottom: 210px;
+}
+.titre{
+  text-align: center;
+}
+h4{
+  text-align: center;
+}
+thead{
+  font-weight: bold;
+}
+.amp {
+  margin-left: 120px;
+  
 }
